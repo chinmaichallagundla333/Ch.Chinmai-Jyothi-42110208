@@ -23,7 +23,7 @@ public class Main {
                 case 1:
                     System.out.print("Enter Book ID: ");
                     int bookId = scanner.nextInt();
-                    scanner.nextLine();  // Consume newline
+                    scanner.nextLine();  
                     System.out.print("Enter Book Title: ");
                     String title = scanner.nextLine();
                     System.out.print("Enter Book Author: ");
@@ -44,7 +44,7 @@ public class Main {
                 case 4:
                     System.out.print("Enter Student ID: ");
                     int studentId = scanner.nextInt();
-                    scanner.nextLine();  // Consume newline
+                    scanner.nextLine();  
                     System.out.print("Enter Student Name: ");
                     String name = scanner.nextLine();
                     library.addStudent(new Student(studentId, name));
