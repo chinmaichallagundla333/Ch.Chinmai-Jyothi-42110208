@@ -4,7 +4,6 @@ public class Book {
     private String author;
     private boolean isIssued;
 
-    // Constructor
     public Book(int bookId, String title, String author) {
         this.bookId = bookId;
         this.title = title;
@@ -12,7 +11,6 @@ public class Book {
         this.isIssued = false;
     }
 
-    // Getters and Setters
     public int getBookId() {
         return bookId;
     }
@@ -37,7 +35,7 @@ public class Book {
         isIssued = false;
     }
 
-    @Override
+    
     public String toString() {
         return "Book ID: " + bookId + ", Title: " + title + ", Author: " + author +
                 ", Issued: " + (isIssued ? "Yes" : "No");
